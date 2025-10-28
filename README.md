@@ -40,9 +40,14 @@ Written by dogghoodie & topspook
   ```bash
   sudo apt update
   sudo apt install -y build-essential cmake git \
-      libxt-dev libgl1-mesa-dev libglu1-mesa-dev
+      libxt-dev libgl1-mesa-dev libglu1-mesa-dev \
+      libx11-dev libxcursor-dev libxrender-dev \
+      libxrandr-dev libxi-dev
   ```
 2. Clone the VTK repository in your ~home directory.
+```bash
+  git clone https://github.com/Kitware/VTK
+```
 3. Navigate into the repository
   ```bash
   cd VTK
